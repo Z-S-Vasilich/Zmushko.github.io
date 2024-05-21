@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Poetsen One&display=swap');
+
+body {
+    font-family: Poetsen One, serif;
+    background: radial-gradient(#555991 0%, #212a4f 100%);
+}
+
+p,
+h4{
+     color: rgb(20, 173, 211);
+}
+.nav-link {
+    color: rgb(20, 173, 211);
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(94, 128, 116);
+}
+
+.navbar-brand img {
+    width: 45px;
+
+}
+
+.navbar-toggler {
+    background: rgb(94, 128, 116);
+}
+
+.sidebar,
+.card,
+.btn-outline-info {
+    color: rgb(20, 173, 211);
+    background: radial-gradient(#32355a 0%, #1c2447 100%);
+}
+
+.card a{
+    color: rgb(20, 173, 211);
+    text-decoration: none;
+}
+
+footer {
+    color: rgb(20, 173, 211);
+    background: radial-gradient(#32355a 0%, #1c2447 100%);
+  
+}
+
+.call-anim{
+    animation: call 5s linear 1s infinite normal none;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+.text-center{
+    margin: auto auto;
+}
+footer a{
+    text-decoration: none;
+}
+
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
